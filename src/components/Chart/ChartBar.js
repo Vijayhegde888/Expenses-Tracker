@@ -3,7 +3,7 @@ import React from 'react';
 import './ChartBar.css';
 
 const ChartBar = (props) => {
-  console.log('props',props);
+  console.log('props t',props);
   let barFillHeight = '0%';
 
   if (props.maxValue > 0) {
